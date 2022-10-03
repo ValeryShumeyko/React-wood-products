@@ -1,0 +1,39 @@
+.error-page {
+    min-height: 100vh;
+    padding: 0px 0px 340px 0px;
+}
+.error-page__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 50px;
+}
+.error-page__title {
+    padding: 0px 0px 37px 0px;
+}
+.error-page__content p {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFDBBB;
+    padding: 0px 0px 42px 0px;
+}
+.error-page__content .img404 img {
+    width: 100%;
+}
+@media(max-width: 900px) {
+    .error-page {
+        padding: 0px 0px 200px 0px;
+        min-height: 55vh;
+    }
+}
+@media(max-width: 768px) {
+    .error-page__content p {
+        font-size: 22px;
+        text-align: center;
+    }
+    .error-page__content {
+        padding: 0px 20px;
+    }
+}

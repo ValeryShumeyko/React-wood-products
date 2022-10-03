@@ -1,0 +1,22 @@
+.our-work {
+    padding: 0px 24px 278px 24px;
+}
+.our-work__title {
+    padding: 0px 0px 121px 170px;
+}
+@media(max-width: 700px) {
+    .our-work__title {
+        padding: 0px 0px 100px 40px;
+    }
+    .our-work {
+        padding: 0px 24px 200px 24px;
+    }
+}
+@media(max-width: 576px) {
+    .our-work__title {
+        padding: 0px 0px 50px 40px;
+    }
+    .our-work {
+        padding: 0px 24px 160px 24px;
+    }
+}

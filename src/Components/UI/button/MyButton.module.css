@@ -1,0 +1,45 @@
+.myBtn {
+    padding: 11px 70px;
+    border-radius: 42px;
+    border: 1px solid #728BAD;
+    background-color: #728BAD;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    transition: all 1s;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.myBtn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1.5em;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.4);
+    transform: translateX(-4em) skewX(-45deg);
+    transition: .3s;
+}
+.myBtn:hover {
+    background-color: rgb(61, 80, 116);
+}
+.myBtn:hover.myBtn::before {
+    animation: move-light .6s;
+}
+@keyframes move-light {
+    from {
+        transform: translateX(-4em) skewX(-45deg);
+    }
+    to {
+        transform: translateX(17em) skewX(-45deg);
+    }
+}
+@media(max-width: 576px) {
+    .myBtn {
+        padding: 3px 22px;
+        font-size: 24px;
+    }
+}

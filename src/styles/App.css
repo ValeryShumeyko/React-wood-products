@@ -1,0 +1,109 @@
+@import url('https://cdn.syncfusion.com/ej2/material.css');
+@font-face {
+    font-family: 'KyivTypeSans';
+    src: url('../fonts/KyivTypeSans-Black-.eot');
+    src: local('0'), url('../fonts/KyivTypeSans-Black-.woff') format('woff'), url('../fonts/KyivTypeSans-Black-.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'KyivTypeSans';
+    src: url('../fonts/KyivTypeSans-Heavy-.eot');
+    src: local('0'), url('../fonts/KyivTypeSans-Heavy-.woff') format('woff'), url('../fonts/KyivTypeSans-Heavy-.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'KyivTypeSans';
+    src: url('../fonts/KyivTypeSans-Bold-.eot');
+    src: local('0'), url('../fonts/KyivTypeSans-Bold-.woff') format('woff'), url('../fonts/KyivTypeSans-Bold-.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'KyivTypeSans';
+    src: url('../fonts/KyivTypeSans-Medium-.eot');
+    src: local('0'), url('../fonts/KyivTypeSans-Medium-.woff') format('woff'), url('../fonts/KyivTypeSans-Medium-.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'KyivTypeSans';
+    src: url('../fonts/KyivTypeSans-Regular-.eot');
+    src: local('0'), url('../fonts/KyivTypeSans-Regular-.woff') format('woff'), url('../fonts/KyivTypeSans-Regular-.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'KyivTypeSans';
+    src: url('../fonts/KyivTypeSans-Light-.eot');
+    src: local('0'), url('../fonts/KyivTypeSans-Light-.woff') format('woff'), url('../fonts/KyivTypeSans-Light-.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'KyivTypeSans';
+    src: url('../fonts/KyivTypeSans-Thin.eot');
+    src: local('0'), url('../fonts/KyivTypeSans-Thin.woff') format('woff'), url('../fonts/KyivTypeSans-Thin.woff2') format('woff2');
+    font-weight: 100;
+    font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #F5F5F5;
+
+}
+html {
+    /*overflow: hidden;*/
+    height: 100%;
+}
+body {
+    height: 100%;
+    color: #F5F5F5;
+    background: rgba(34, 32, 33);
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+body._lock {
+    overflow: hidden;
+}
+#root {
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+}
+.bg-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    min-height: 100%;
+}
+body::-webkit-scrollbar {
+    width: 1px;
+    height: 10px;
+}
+body::-webkit-scrollbar-track {
+    background: rgb(34, 32, 33);
+    border-radius: 42px;
+}
+body::-webkit-scrollbar-thumb {
+    background: #728BAD;
+    border-radius: 42px;
+}
+li {
+    list-style: none;
+}
+
+
+
+
+
+

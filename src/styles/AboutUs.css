@@ -1,0 +1,113 @@
+.about-us {
+    display: flex;
+    max-width: 1325px;
+    margin: 0px auto 192px 0px;
+    padding: 44px 70px 31px 24px;
+    background: #1E0C06;
+    border-radius: 0px 42px 42px 0px;
+    filter: drop-shadow(0px 4px 52px rgba(245, 245, 245, 0.17));
+    transform-style: preserve-3d;
+}
+.about-us__text {
+    position: relative;
+    margin-left: auto;
+}
+.about-us__text .title {
+    padding: 0px 0px 67px 0px;
+}
+.about-us__text p {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 139.4%;
+    max-width: 516px;
+}
+.about-us__image {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 0px 62px;
+}
+.about-us__image_item:nth-child(1) {
+    align-self: flex-end;
+    padding: 0px 0px 0px 40px;
+}
+.about-us__image_item:nth-child(2) {
+    align-self: flex-end;
+    margin: -100px 74px 0px 0px;
+    border: 13px solid black;
+    border-radius: 58px;
+}
+.about-us__image_item:nth-child(3) {
+    align-self: flex-end;
+    margin: 25px 0px 0px 40px;
+}
+@media(max-width: 1370px) {
+    .about-us {
+        margin: 0px 30px 192px 0px;
+    }
+}
+@media(max-width: 1000px) {
+    .about-us {
+        flex-direction: column;
+    }
+    .about-us__text {
+        width: 100%;
+    }
+    .about-us__text p {
+        font-size: 26px;
+        max-width: none;
+    }
+    .about-us__image {
+        padding-top: 40px;
+    }
+    .about-us__image_item:nth-child(1) {
+        align-self: center;
+    }
+    .about-us__image_item:nth-child(2) {
+        align-self: flex-start;
+    }
+    .about-us__image_item:nth-child(3) {
+        margin: -70px 0px 0px 40px;
+    }
+}
+@media (max-width: 800px) {
+    .about-us {
+        padding: 44px 24px 31px 24px;
+    }
+    .about-us__image_item:nth-child(1) {
+        align-self: flex-end;
+    }
+    .about-us__text .title {
+        padding: 0px 0px 40px 0px;
+    }
+    .about-us__text p {
+        font-size: 22px;
+    }
+    .about-us__image_item:nth-child(2) {
+        width: 270px;
+    }
+    .about-us__image_item:nth-child(2) img{
+        width: 100%;
+    }
+    .about-us__image_item:nth-child(1) img,
+    .about-us__image_item:nth-child(3) img{
+        width: 80%;
+    }
+}
+@media(max-width: 576px) {
+    .about-us__image {
+        padding: 40px 0px 0px 0px;
+    }
+    .about-us {
+        margin: 0px 30px 92px 0px;
+    }
+    .about-us__text p {
+        font-size: 18px;
+    }
+    .about-us__image_item:nth-child(3) {
+        margin: 20px -40px 0px 40px;
+    }
+    .about-us__image_item:nth-child(1) {
+        margin: 0px -40px 0px 40px;
+    }
+}

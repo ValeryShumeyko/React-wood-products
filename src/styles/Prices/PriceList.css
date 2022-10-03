@@ -1,0 +1,27 @@
+.price-list {
+    padding: 0px 24px 278px 24px;
+}
+.price-list__title {
+    padding: 121px 0px 121px 170px;
+}
+@media(max-width: 842px) {
+    .price-list__title {
+        padding: 100px 0px 100px 40px;
+    }
+    .price-list {
+        padding: 0px 10px 200px 10px;
+    }
+}
+@media(max-width: 576px) {
+    .price-list__title {
+        padding: 50px 0px 50px 40px;
+    }
+    .price-list {
+        padding: 0px 10px 160px 10px;
+    }
+}
+@media(max-width: 479px) {
+    .price-list {
+        padding: 0px 3px 160px 3px;
+    }
+}

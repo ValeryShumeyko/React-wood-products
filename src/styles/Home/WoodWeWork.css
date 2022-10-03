@@ -1,0 +1,52 @@
+.wood-we-work {
+    padding: 0px 75px 263px 75px;
+}
+.wood-we-work h1 {
+    margin: 0px 0px 125px 170px;
+    max-width: 746px;
+}
+.wood-we-work .content {
+    display: flex;
+    justify-content: space-between;
+}
+@media(max-width: 1260px) {
+    .wood-we-work {
+        padding: 0px 30px 163px 30px;
+    }
+    .wood-we-work h1 {
+        margin: 0px 0px 125px 120px;
+        max-width: 746px;
+    }
+}
+@media(max-width: 900px) {
+    .wood-we-work .content {
+        overflow-x: scroll;
+        padding: 0px 0px 40px 0px;
+    }
+    .wood-we-work .content::-webkit-scrollbar {
+        width: 100%;
+        height: 10px;
+        background: rgb(30, 32, 36);
+    }
+    .wood-we-work .content::-webkit-scrollbar-thumb {
+        background: rgba(50, 53, 60, 0.75);
+        height: 50%;
+    }
+    .wood-we-work {
+        padding: 0px 0px 103px 0px;
+    }
+    .wood-we-work h1 {
+        margin: 0px 30px 125px 120px;
+        max-width: 746px;
+    }
+}
+@media(max-width: 700px) {
+    .wood-we-work h1 {
+        margin-bottom: 90px;
+    }
+}
+@media(max-width: 576px) {
+    .wood-we-work h1 {
+        margin: 0px 0px 90px 40px;
+    }
+}

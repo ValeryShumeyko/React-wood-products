@@ -1,0 +1,19 @@
+.about-page__content {
+    animation: fade-in 2s;
+}
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.about-page__about-us {
+    padding: 102px 0px 0px 0px;
+}
+@media(max-width: 576px) {
+    .about-page__about-us {
+        padding: 32px 0px 0px 0px;
+    }
+}
