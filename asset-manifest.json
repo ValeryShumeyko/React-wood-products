@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ReactWoodProducts.github.io/static/css/main.6a2641c2.css",
-    "main.js": "/ReactWoodProducts.github.io/static/js/main.a31f1d2f.js",
+    "main.js": "/ReactWoodProducts.github.io/static/js/main.7b64ae62.js",
     "static/media/HomeTop.png": "/ReactWoodProducts.github.io/static/media/HomeTop.a19412d258ac7c1ba852.png",
     "static/media/1.png": "/ReactWoodProducts.github.io/static/media/1.779df6a63fdbfafcf990.png",
     "static/media/3.jpg": "/ReactWoodProducts.github.io/static/media/3.281693c207ecc0468229.jpg",
@@ -49,10 +49,10 @@
     "static/media/arrow-right.svg": "/ReactWoodProducts.github.io/static/media/arrow-right.23f880fd901f99e36128.svg",
     "static/media/arrow-left.svg": "/ReactWoodProducts.github.io/static/media/arrow-left.1695aa1de48bd5a3418b.svg",
     "main.6a2641c2.css.map": "/ReactWoodProducts.github.io/static/css/main.6a2641c2.css.map",
-    "main.a31f1d2f.js.map": "/ReactWoodProducts.github.io/static/js/main.a31f1d2f.js.map"
+    "main.7b64ae62.js.map": "/ReactWoodProducts.github.io/static/js/main.7b64ae62.js.map"
   },
   "entrypoints": [
     "static/css/main.6a2641c2.css",
-    "static/js/main.a31f1d2f.js"
+    "static/js/main.7b64ae62.js"
   ]
 }
